@@ -9,11 +9,11 @@ var namesArr = [
 	"abigal",
 	"jason",
 	"isaac",
-	"adam",
-	"bill",
+	"pearl",
+	"andy",
 	"angelo",
 	"brett",
-	"luis",
+	"katie",
 	"tyler"
 	];
 
@@ -93,6 +93,7 @@ var rounds = function () {
         wins++;
         // alert("Yeaaaaaaye, you win!!!!!")
 		document.getElementById("wins").innerHTML = wins;
+		play();
 	} else if (guessesRemaining === 0) {
 		// Restart game
         start();
@@ -107,3 +108,87 @@ document.onkeypress = function(event) {
   checkGuess();
   rounds();
 };
+
+var play = function () {
+
+	if (currentWord === "rich") {
+		var picture = "<img src='https://avatars1.githubusercontent.com/u/42152762?s=200&v=4'  alt=''>";
+		document.querySelector("#picture").innerHTML = picture;
+		start();
+	} 
+	else if (currentWord === "elizabeth"){
+		var picture = "<img src='https://avatars1.githubusercontent.com/u/42365244?s=200&v=4' alt=''>";
+		document.querySelector("#picture").innerHTML = picture;
+		start();
+	}
+	else if (currentWord === "magaly"){
+		var picture = "<img src='https://avatars2.githubusercontent.com/u/25308742?s=200&v=4' alt=''>";
+		document.querySelector("#picture").innerHTML = picture;
+		start();
+	}
+	else if (currentWord === "joyce"){
+		var picture = "<img src='https://avatars1.githubusercontent.com/u/42484077?s=200&v=4' alt=''>";
+		document.querySelector("#picture").innerHTML = picture;
+		start();
+	}
+	else if (currentWord === "andrew"){
+		var picture = "<img src='https://avatars2.githubusercontent.com/u/32251290?s=200&v=4' alt=''>";
+		document.querySelector("#picture").innerHTML = picture;
+		start();
+	}
+	else if (currentWord === "ashley"){
+		var picture = "<img src='https://avatars3.githubusercontent.com/u/38448889?s=200&v=4' alt=''>";
+		document.querySelector("#picture").innerHTML = picture;
+		start();
+	}
+	else if (currentWord === "ryan"){
+		var picture = "<img src='https://avatars0.githubusercontent.com/u/38480369?s=200&v=4' alt=''>";
+		document.querySelector("#picture").innerHTML = picture;
+		start();
+	}
+	else if (currentWord === "abigal"){
+		var picture = "<img src='https://avatars0.githubusercontent.com/u/41799687?s=200&v=4' alt=''>";
+		document.querySelector("#picture").innerHTML = picture;
+		start();
+	}
+	else if (currentWord === "jason"){
+		var picture = "<img src='https://avatars3.githubusercontent.com/u/40837639?s=200&v=4' alt=''>";
+		document.querySelector("#picture").innerHTML = picture;
+		start();
+	}
+	else if (currentWord === "isaac"){
+		var picture = "<img src='https://avatars3.githubusercontent.com/u/727268?s=200&v=4' alt=''>";
+		document.querySelector("#picture").innerHTML = picture;
+		start();
+	}
+	else if (currentWord === "pearl"){
+		var picture = "<img src='https://avatars0.githubusercontent.com/u/39831295?s=200&v=4' alt=''>";
+		document.querySelector("#picture").innerHTML = picture;
+		start();
+	}
+	else if (currentWord === "andy"){
+		var picture = "<img src='https://avatars1.githubusercontent.com/u/10361698?s=200&v=4' alt=''>";
+		document.querySelector("#picture").innerHTML = picture;
+		start();
+	}
+	else if (currentWord === "angelo"){
+		var picture = "<img src='https://avatars3.githubusercontent.com/u/727268?s=200&v=4' alt=''>";
+		document.querySelector("#picture").innerHTML = picture;
+		start();
+	}
+	else if (currentWord === "brett"){
+		var picture = "<img src='https://avatars3.githubusercontent.com/u/727268?s=200&v=4' alt=''>";
+		document.querySelector("#picture").innerHTML = picture;
+		start();
+	}
+	else if (currentWord === "katie"){
+		var picture = "<img src='https://avatars3.githubusercontent.com/u/38897241?s=200&v=4' alt=''>";
+		document.querySelector("#picture").innerHTML = picture;
+		start();
+	}
+	else if (currentWord === "tyler"){
+		var picture = "<img src='https://avatars2.githubusercontent.com/u/42359367?s=200&v=4' alt=''>";
+		document.querySelector("#picture").innerHTML = picture;
+		start();
+	}
+}

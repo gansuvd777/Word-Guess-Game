@@ -1,7 +1,7 @@
 body {
   background-color: blanchedalmond!important;
 }
-img {
+.image{
   width: 70%;
   height: 100px;
   margin-left: 180px;
@@ -15,6 +15,10 @@ h2 {
   font-family: 'Times New Roman', Times, serif;
   color: blue;
   text-align: center;
+}
+#picture{
+  height: auto;
+  width: auto;
 }
 .footer {
   position: absolute;
