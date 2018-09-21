@@ -13,12 +13,17 @@ h2 {
 }
 #gameDisplay{
   font-family: 'Times New Roman', Times, serif;
-  color: blue;
+  color: #000080;
   text-align: center;
 }
 #picture{
   height: auto;
   width: auto;
+}
+.box {
+  border: 2px solid darkblue;
+  padding: 10px;
+  border-radius: 15px;
 }
 .footer {
   position: absolute;
