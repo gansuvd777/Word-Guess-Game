@@ -1,5 +1,5 @@
 body {
-  background-color: blanchedalmond!important;
+  background-image: url(https://chacontowing.com/wp-content/uploads/2015/01/The-Tow-Academy-Background-Blocks.jpg);
 }
 .image{
   width: 70%;
@@ -24,6 +24,7 @@ h2 {
   border: 2px solid darkblue;
   padding: 10px;
   border-radius: 15px;
+  background-color: lightgrey;
 }
 .footer {
   position: fixed;
