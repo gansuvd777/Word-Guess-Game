@@ -62,6 +62,8 @@ var start = function () {
 			}
 	}
 	displayToBrowser();
+	var textbox = document.getElementById('my-input');
+    textbox.select();
 }
 
 var checkGuess = function () {
